@@ -1,0 +1,30 @@
+1. Write a note on jvm.
+ANS: Java Virtual Machine is an abstract machine. It is a specification that provides runtime environment in which java bytecode can be executed.JVM is platform dependent.It is a specification where working of jvm is specified.Its implementation is known as Java Runtime Environment(jre).Whenever we write command on command prompt to run the java class,an instance of JVM is created.
+=======================================================================================================================================================================
+
+2. Write a note on primitive and non-primitive data types.
+ANS: Primitive data types are predefined types of data,which are supported by java. eg: integer,character,string.Programmers can use these data types when creating variables in their programs.eg: a programmer may create a variable called "lastname" and define it as a string data type.The variable will then store data as a string of characters.
+
+Non-primitive data types are not defined by language,but are instead created by the programmer.They are sometimes called as "object references," since they reference a memory location,which stores the data.In the Java programming language,non-primitive data types are simply called "objects" because they are created,rather than predefined.While an object may contain any type of data,the information referenced by the object may still be stored as a primitive data type.
+=======================================================================================================================================================================
+
+3. What are ternary operators?
+ANS: The ternary operator is the simple one liner statement of an if-then-else statement. A ternary operator uses ? and : symbols. A simple ternary operator works      similar to the if-then-else statement. If any condition evaluates to true then true statement executed else false statement executed.syntax of ternary operator in      java:condition ? trueStatement : falseStatement
+Basically, there are 3 parts of statement seprated with ? and : symbols.
+Condition : First part is the condition section.
+trueStatement : Second is the code block which executes in case of first part condition goes true.
+falseStatement : The Third part code block executes if condition results as false.
+
+For an example, if any account exists in application record then complete sign in process for user else open signup form for that user.
+ifAccountExists() ? signIn() : signUp();
+=======================================================================================================================================================================     
+     
+4. What is the difference between JDK and JRE?
+ANS: Java Development Kit (JDK) is a bundle of software components that is used to develop Java based applications.JDK includes the JRE, set of API classes, Java compiler, Webstart and additional files needed to write Java applets and applications. Java Development Kit is a bundle of the following software components that are needed to develop Java based applications.
+
+JRE (Java Runtime Environment):JRE is an implementation of the JVM which actually executes Java programs. It includes the JVM, core libraries and other additional components to run applications and applets written in Java. Java Runtime Environment is a must install on machine in order to execute pre compiled Java Programs. JRE is smaller than the JDK so it needs less disk space and it is so because JRE does not contain Java compiler and other software tools needed to develop Java programs.
+=======================================================================================================================================================================
+
+5. What is the difference between compiler and interpreter?
+ANS: Interpreter:- Translates program one statement at a time.It takes less amount of time to analyze the source code but the overall execution time is slower.No intermediate object code is generated, hence are memory efficient.Continues translating the program until the first error is met, in which case it stops. Hence debugging is easy.Programming language like Python, Ruby use interpreters.
+Compiler:- Scans the entire program and translates it as a whole into machine code.It takes large amount of time to analyze the source code but the overall execution time is comparatively faster.Generates intermediate object code which further requires linking, hence requires more memory.It generates the error message only after scanning the whole program. Hence debugging is comparatively hard.Programming language like C, C++ use compilers.
